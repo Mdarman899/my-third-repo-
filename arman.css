@@ -1,0 +1,202 @@
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:;
+}
+body{
+    background-color: wheat;
+   
+    background-position:center;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+}
+
+ h3{
+    font-size:20px;
+    color: rgb(46, 46, 105);
+    text-align:center;
+ } 
+.indent{
+    text-indent:30px ;
+    line-height: 40px;
+}
+
+.span{
+    background-color: green;
+    color:red;
+
+}
+
+ .lorem{
+    border:5px solid red ;
+    padding: 5px ;
+    text-align:justify;
+    border-radius:1cap;
+    line-height:18px;
+  
+    margin-bottom: 20px;
+    margin-left:150px;
+    margin-top: 20px;
+    margin-right:105px;
+ }
+
+.ok{
+    color:brown;
+    font-size:18px;
+    border:none;
+
+    border-radius: 3cap;
+    width: 10%;
+    background-color: skyblue ;
+   
+}
+.ok:hover{
+    color:black;
+    background-color: aliceblue;
+}
+.ok:focus{
+    background-color: red ;
+    width: 15%;
+}
+.box2{
+    height: 200px ;
+    background-color: red ;
+    width:400px;
+}
+.flex{
+    text-shadow: 2px 3px green ;
+     
+}
+
+/* pagination design*/
+
+.npd{
+    text-align: center;
+}
+
+.np{
+    margin: 0px;
+    padding: 0px; 
+}
+.np li{
+    list-style: none;
+    display:inline-block;
+}
+.np li a{
+    display: block;
+    padding: 5px 8px;
+    text-decoration: none;
+    background-color: white;
+    color:#222;
+    box-shadow: 2px 3px #ccc ;
+}
+.np li a:hover{
+      background-color: rgb(77, 70, 70);
+      color:white;
+}
+.np li:first-child a{
+    background-color: green;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+.np li:last-child a{
+    background-color: green;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+}
+.np li:first-child a:hover,.np li:last-child a:hover {
+    background-color: black;
+    color:white;
+}
+
+/* End pagination design */
+
+.heading-pagination{
+    text-align: center;
+    font-style: italic;
+}
+
+.practice{
+    margin:0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+.ull li{
+    display:inline-block;
+    list-style:none;
+    
+}
+.ull li a{
+    text-decoration: none;
+    padding:5px 8px;
+    background-color:white;
+    box-shadow: 2px 3px rgb(207, 188, 162) ;
+    color:black;
+}
+.ull li a:hover{
+    background-color: rgb(78, 68, 53);
+    color:white;
+}
+.ull li:first-child a{
+    background-color: green;
+    border-bottom-left-radius:3px ;
+    border-top-left-radius: 3px;
+}
+.ull li:last-child a{
+    background-color: green;
+    border-bottom-right-radius:3px ;
+    border-top-right-radius: 3px;
+}
+.ull li:first-child a:hover{
+    background-color:rgb(78, 68, 53) ;
+    color:white;
+}
+.ull li:last-child a:hover{
+    background-color:rgb(78, 68, 53) ;
+    color:white;
+}
+.test{
+    width:200px ;
+    padding:20px ;
+}
+
+
+/* programming hero practice form  */
+
+.heading-form{
+    text-align: center;
+    margin-top: 35px;
+}
+
+/* .programming-form > */ label{
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* header file    */
+nav ul{
+    display: flex;
+    background-color: lightgray;
+    height: 80px;
+    margin:0px;
+    padding: 0px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 5px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    background-color:white;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color:white;
+}
