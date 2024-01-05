@@ -196,6 +196,7 @@ nav ul li a{
     background-color:white;
     padding: 5px;
     border-radius: 5px;
+    color:rgb(17, 15, 15);
 }
 nav ul li a:hover{
     background-color: black;
